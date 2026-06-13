@@ -53,10 +53,6 @@ NEXTJS_ENV="production"
 binding = "IMAGES"
 
 [[env.production.routes]]
-pattern = "napochaan.com"
-custom_domain = true
-
-[[env.production.routes]]
 pattern = "v2.napochaan.com"
 custom_domain = true
 
