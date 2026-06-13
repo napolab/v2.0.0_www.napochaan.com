@@ -4,7 +4,7 @@ main = "./worker.ts"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 workers_dev = false
-preview_urls = true
+preview_urls = false
 
 [[rules]]
 type = "Data"
@@ -51,10 +51,6 @@ NEXTJS_ENV="production"
 
 [env.production.images]
 binding = "IMAGES"
-
-[[env.production.routes]]
-pattern = "napochaan.com"
-custom_domain = true
 
 [[env.production.routes]]
 pattern = "v2.napochaan.com"
