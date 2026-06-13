@@ -56,6 +56,10 @@ binding = "IMAGES"
 pattern = "napochaan.com"
 custom_domain = true
 
+[[env.production.routes]]
+pattern = "v2.napochaan.com"
+custom_domain = true
+
 [env.production.observability.logs]
 enabled = true
 
