@@ -30,7 +30,7 @@ jobs:
           persist-credentials: false
 
       - name: Run zizmor security analysis
-        uses: zizmorcore/zizmor-action@e673c3917a1aef3c65c972347ed84ccd013ecda4 # v0.2.0
+        uses: zizmorcore/zizmor-action@53290badfa369cb0bf7ad16342cb62c2fa47ac7b # v0.8.0
         with:
           inputs: .github/
           online-audits: true
